@@ -1,0 +1,8 @@
+N = 100 # length of Fibonacci's sequence 
+matrix fib = zeros(N,1)
+fib[1]=1
+fib[2]=1
+loop i = 1..(N-2) --quiet 
+    fib[i+2] = fib[i+1] + fib[i]
+endloop
+gnuplot --matrix=fib --time-series --with-lines --output=display
