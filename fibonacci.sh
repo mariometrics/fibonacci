@@ -1,8 +1,8 @@
 #!/bin/bash
 
-read -p "digita zero e premi invio:" a 
-read -p "digita uno e premi invio:" b
-read -p "inserisci quante cifre della sequenza di Fibonacci vuoi generare:" N
+read -p "Digita zero e premi invio:" a 
+read -p "Digita uno e premi invio:" b
+read -p "Quale è la lunghezza che vuoi dare alla tua sequenza di Fibonacci?:" N
    
 echo "La sequenza di Fibonacci è: "
    
